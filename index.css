@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 68px;
+    background: linear-gradient(90deg, goldenrod,seagreen, slateblue, salmon);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+#colors {
+    margin-top: 50px;
+    /* height: 100vh; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#goldenrod {
+    background-color: goldenrod;
+    border: 1px solid black;
+}
+#seagreen {
+    background-color: seagreen;
+    border: 1px solid black;
+}
+#slateblue {
+    background-color: slateblue;
+    border: 1px solid black;
+}
+#salmon {
+    background-color: salmon;
+    border: 1px solid black;
+}
